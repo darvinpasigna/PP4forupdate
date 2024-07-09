@@ -48,7 +48,7 @@ function NavBar() {
 
     const user = memberInfo.find(member => member.regUsername === userName && member.regPassword === password);
     if (user) {
-      window.location.replace('../../Memberhome');
+      window.location.replace('../../MemberHome');
 
     } else {
       alert("Wrong Username or Password");
